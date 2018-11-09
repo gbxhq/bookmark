@@ -3155,7 +3155,7 @@ body {
 }
 
 .tile-box {
-    height: 120px;
+    height: 88px;
     max-height: 120px;
     width: 188px;
     max-width: 188px;
@@ -3163,7 +3163,7 @@ body {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, .2);
     box-sizing: border-box;
     background: rgba(255, 255, 255, .8);
-    font-size: 28px;
+    font-size: 16px;
     vertical-align: middle;
     text-align: center;
     display: table-cell
@@ -3185,6 +3185,7 @@ body {
     line-height: 16px;
     overflow: hidden;
     padding: 8px;
+    font-size: 10px;
     text-align: center;
     text-overflow: ellipsis;
     transition: color .3s;
