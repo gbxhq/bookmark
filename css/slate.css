@@ -3053,6 +3053,7 @@ body {
     background-color: #657383;
     margin-left: 50px;
     color: #000;
+    fill: #fff; /*这句是为了让svg变成白色 */
     background-image: radial-gradient(ellipse farthest-side at center top, #fcfcfc 0, #657383 100%)
 }
 
@@ -3165,7 +3166,7 @@ body {
     width: 188px;
     max-width: 188px;
     border-radius: 10px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     background: #fff;
     font-size: 21px;
