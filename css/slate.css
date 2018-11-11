@@ -3323,9 +3323,9 @@ nav li a {
 }
 
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center top;
-    background-size: cover;
+    background-size: auto;
     background-blend-mode: darken;
     -webkit-transition: background 1.4s linear;
     -moz-transition: background 1.4s linear;
@@ -3334,8 +3334,8 @@ body {
     transition: background 1.4s linear;
     background-position-x: center;
     background-position-y: center;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
     background-attachment: fixed
 }
 
