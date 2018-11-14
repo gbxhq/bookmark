@@ -3050,11 +3050,12 @@ body {
     padding: 0;
     font-family: FZYanSongM, sans-serif;
     font-weight: 700;
-    background-color: #657383;
+    background-color: #000;
     margin-left: 50px;
     color: #000;
-    fill: #fff; /*这句是为了让svg变成白色 */
-    background-image: radial-gradient(ellipse farthest-side at center top, #fcfcfc 0, #657383 100%)
+    fill: #000;
+    /* background-image: radial-gradient(ellipse farthest-side at center top, #fcfcfc 0, #657383 100%) */
+    background-image: radial-gradient(ellipse farthest-side at center top, #000 0, #000 100%)
 }
 
 .container {
@@ -3168,7 +3169,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    background: #fff;
+    background: #000;
     font-size: 21px;
     vertical-align: middle;
     text-align: center;
@@ -3325,7 +3326,7 @@ nav li a {
 body {
     background-repeat: repeat;
     background-position: center top;
-    background-size: auto;
+    background-size: cover;
     background-blend-mode: darken;
     -webkit-transition: background 1.4s linear;
     -moz-transition: background 1.4s linear;
