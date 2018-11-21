@@ -1,0 +1,63 @@
+baseURL = "https://oo1.win"
+languageCode = "zh-CN"
+title = "炫猿"
+theme = "slate"
+
+Favicon = "favicon.ico"
+BackgroundStyle = "black"
+OpenLinksInNewWindow = true
+
+[[ params.nav ]]
+name = "精品站"
+tag = "fav"
+icon = "star"
+
+[[ params.nav ]]
+name = "云"
+tag = "cloud"
+icon = "cloud"
+
+[[ params.nav ]]
+name = "电影"
+tag = "video"
+icon = "youtube"
+
+[[ params.nav ]]
+name = "音乐"
+tag = "music"
+icon = "headphones"
+
+[[ params.nav ]]
+name = "软件"
+tag = "soft"
+icon = "adn"
+
+[[ params.nav ]]
+name = "小工具"
+tag = "tool"
+icon = "Wrench"
+
+[[ params.nav ]]
+name = "浏览器插件"
+tag = "chrome"
+icon = "chrome"
+
+[[ params.nav ]]
+name = "娱乐"
+tag = "fun"
+icon = "gamepad"
+
+[[ params.nav ]]
+name = "游戏"
+tag = "game"
+icon = "gamepad"
+
+[[ params.nav ]]
+name = "购物"
+tag = "shopping"
+icon = "shopping-basket"
+
+[[ params.nav ]]
+name = "学习"
+tag = "study"
+icon = "graduation-cap"

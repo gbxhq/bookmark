@@ -1,0 +1,663 @@
+tiles:
+  
+-
+  name: "福利吧"
+  url: "https://fulibus.net"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "red"
+  tags: [fav]
+-
+  name: "BiliBili"
+  url: "https://bilibili.com"
+  img: "logos/bilibili.svg"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "red"
+  tags: [fav]
+
+-
+  name: "龙轩导航"
+  url: "http://ilxdh.com/"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav]
+-
+  name: "吾爱破解"
+  url: "http://www.52pojie.cn/"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav]
+-
+  name: "腾讯文档"
+  url: "https://docs.qq.com/desktop/"
+  img: "logos/qq.svg"
+  bg_color: "#800000"
+  txt_color: "#ffffff"
+  tags: [fav,tool]
+-
+  name: "Pocket"
+  url: "https://getpocket.com/a/queue/grid/"
+  img: "logos/pocket.svg"
+  bg_color: "red"
+  txt_color: "#ffffff"
+  tags: [fav]
+
+-
+  name: "UZER"
+  url: "https://www.uzer.me/"
+  txt: "在线Office CAD PS Ai Viso Xmind Jupyter"
+  txt_color: "#ffffff"
+  tags: [fav,tool]
+
+-
+  name: "快递申诉"
+  url: "http://sswz.spb.gov.cn/"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav,life]
+-
+  name: "酷安"
+  url: "http://coolapk.com/"
+  img: "logos/Android.svg"
+  bg_color: "rgba(0,0,0,0)" #框的背景颜色
+  tags: [fav]
+
+-
+  name: "威锋"
+  url: "http://feng.com"
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [fav]
+  txt: "Apple鼻祖"
+-
+  name: "远景"
+  url: "http://pcbeta.com/"
+  img: "logos/win.svg"
+  bg_color: "#3399ff"
+  txt_color: "#fff"
+  tags: [fav]
+  txt: "Win&&黑苹果"
+
+-
+  name: "殁漂遥"
+  url: "https://www.laomoit.com/"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav]
+  txt: "绿色软件"
+-
+  name: "医学卫士"
+  url: "http://www.mvyxws.com/"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav,life]
+-
+  name: "微力同步"
+  url: "http://www.verysync.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fav,cloud]
+  txt: "P2P的同步盘"
+
+-
+  name: "百度云"
+  url: "https://pan.baidu.com" 
+  img: "logos/BaiduCloud.svg"
+  bg_color: "#00ccff"
+  txt_color: "#ffffff"
+  tags: [fav,cloud]
+-
+  name: "微云"
+  url: "https://weiyun.com"
+  bg_color: "#00ccff"
+  txt_color: "#ffffff"
+  tags: [fav,cloud]
+-
+  name: "蓝奏云"
+  url: "https://lanzou.com" 
+  bg_color: "#00ccff"
+  txt_color: "#ffffff"
+  tags: [fav,cloud]
+-
+  name: "盛天网盘 "
+  url: "http://pan.stnts.com/index" 
+  bg_color: "#00ccff"
+  txt_color: "#ffffff"
+  tags: [fav,cloud]
+-
+  name: "币圈导航"
+  url: "https://eosfans.io/sites"
+  img: "logos/bitcoin.svg"
+  bg_color: "#ffcc00"
+  txt_color: "#ffffff"
+  tags: [fav]
+  txt: "EOS开发社区"
+
+#电影
+-
+  name: "疯狂影视搜索★"
+  url: "http://ifkdy.com" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "降龙影院"
+  url: "http://xlyy100.com/" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "94神马在线电影"
+  url: "http://www.82ke.com/"
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "看看屋在线"
+  url: "http://www.kankanwu.com/" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+
+-
+  name: "迅影网"
+  url: "http://www.xunyingwang.com/" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "迷你MP4"
+  url: "http://www.minimp4.com/" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "乐赏"
+  url: "http://www.gscq.me" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+-
+  name: "高清MP4吧"
+  url: "http://www.mp4ba.com/" 
+  img: "logos/movie.svg"
+  bg_color: "#993333"
+  txt_color: "#ffffff"
+  tags: [video]
+
+# 音乐
+-
+  name: "疯狂音乐搜索"
+  url: "http://music.ifkdy.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [music]
+-
+  name: "音悦台"
+  url: "http://www.yinyuetai.com/"       
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [music]
+-
+  name: "无损下载"
+  url: "https://www.sq688.com/search.php?key=%E5%91%A8%E6%9D%B0%E4%BC%A6" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [music]
+-
+  name: "盘多多网盘搜索"
+  url: "http://www.panduoduo.net/"                        
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [music,video,tool,study,book]
+
+- 
+  name: "无版权图库"
+  url: "https://pixabay.com/"    
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [pic]
+-
+  name: "无版权图片视频"
+  url: "https://www.pexels.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [pic]
+-
+  name: "图片素材搜索"
+  url: "https://www.everypixel.com/"                  
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [pic]
+-
+  name: "科学上网"
+  url: "https://loremwalker.github.io/fq-book/#/web/4sol" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: []
+-   
+  name: "搜书"
+  url: "https://www.jiumodiary.com/"                                                                                                                                                                          
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [book]
+
+# 软件
+-
+  name: "小众软件"
+  url: "http://www.appinn.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [soft]
+-
+  name: "爱情守望者"
+  url: "https://waitsun.com" 
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+  txt: "Mac资源"
+-  
+  name: "Mac破解软件"
+  url: "https://mac-torrent-download.net/"
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+
+-
+  name: "☆限免订阅"
+  url: "https://3li3.com" 
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+-
+  name: "AppSo限免"
+  url: "http://app.so/xianmian/" 
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+-
+  name: "反斗限免"
+  url: "http://free.apprcn.com/category/ios/" 
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+
+-
+  name: "少数派"
+  url: "https://sspai.com/" 
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [soft]
+-
+  name: "少数派捷径库"
+  url: "https://shortcuts.sspai.com/#/main/workflow"   
+  img: "logos/apple.svg"
+  bg_color: "#fffff"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+-  
+  name: "Win流氓名单"
+  url: "https://emlvirus.gitbooks.io/windows-apps-that-amaze-us/content/blacklist.html"
+  img: "logos/win.svg"
+  bg_color: "#3399ff"
+  txt_color: "#ffffff"
+  tags: [soft]
+-  
+  name: "WGestures"
+  url: "http://www.yingdev.com/projects/wgestures"
+  img: "logos/win.svg"
+  bg_color: "#3399ff"
+  txt_color: "#ffffff"
+  tags: [soft]
+  txt: "Windows全局鼠标手势"
+
+-
+  name: "高精度IP地址查询1"
+  url: "http://chaipip.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "高精度IP地址查询2"
+  url: "https://www.opengps.cn/Data/IP/LocHighAcc.aspx" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "获取对方位置"
+  url: "https://met.red" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "微软激活"
+  url: "http://www.nruan.com/" 
+  img: "logos/win.svg"
+  bg_color: "#3399ff"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+-
+  name: "图床"
+  url: "https://imgbb.com" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "图床2"
+  url: "https://sm.ms/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "聚合图床"
+  url: "https://www.superbed.cn/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+-
+  name: "云Txt"
+  url: "https://notepad.1976f.com/oo1" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "程序员的工具箱"
+  url: "https://tool.lu/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "前端开发仓库"
+  url: "http://code.ciaoca.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+-
+  name: "iPhone专用壁纸"
+  url: "https://heyeased.weebly.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "Chrome插件"
+  url: "https://www.chrome666.com/"
+  img: "logos/chrome.svg"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+  txt: "免富强下Chrome插件"
+-
+  name: "Firefox Send"
+  url: "https://send.firefox.com/" 
+  img: "logos/firefox.svg"
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+-
+  name: "在线UML"
+  url: "https://www.processon.com" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+-
+  name: "在线制图"
+  url: "http://www.lizibuluo.com/bar/"     
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [tool]
+
+
+-
+  name: "游猴市场"
+  url: "https://greasyfork.org/zh-CN/"                    
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "网页限制解除"
+  url: "https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "视频站启用html5播放器"
+  url: "https://greasyfork.org/zh-CN/scripts/30545-%E8%A7%86%E9%A2%91%E7%AB%99%E5%90%AF%E7%94%A8html5%E6%92%AD%E6%94%BE%E5%99%A8" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "全网音乐一键免费下"
+  url: "https://greasyfork.org/zh-CN/scripts/37058-%E5%85%A8%E7%BD%91%E9%9F%B3%E4%B9%90%E4%B8%80%E9%94%AE%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD-%E4%B8%80%E9%94%AE%E6%90%9C%E7%B4%A2-%E5%9C%A8%E7%BA%BF%E8%AF%95%E5%90%AC-%E9%AB%98%E6%B8%85%E5%93%81%E8%B4%A8%E8%AF%B7%E9%80%89%E6%8B%A9qq%E4%B8%8B%E8%BD%BD%E6%BA%90" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+ 
+
+-
+  name: "百度盘下载助手"
+  url: "https://greasyfork.org/zh-CN/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "豆瓣资源下载大师"
+  url: "https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "自动比价领券"
+  url: "https://greasyfork.org/zh-CN/scripts/14466-%E8%B4%AD%E7%89%A9%E5%85%9A%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7-%E9%A2%86%E5%8F%96%E6%B7%98%E5%AE%9D%E5%86%85%E9%83%A8%E5%88%B8" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "中国知网 PDF 全文下载"
+  url: "https://greasyfork.org/zh-CN/scripts/18842-cnki-%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91-pdf-%E5%85%A8%E6%96%87%E4%B8%8B%E8%BD%BD-%E7%89%B9%E5%88%B6%E7%89%88" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+
+-
+  name: "AC-Baidu"
+  url: "https://greasyfork.org/zh-CN/scripts/14178-ac-baidu-%E9%87%8D%E5%AE%9A%E5%90%91%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E6%90%9C%E7%8B%97%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2-%E5%8E%BB%E5%B9%BF%E5%91%8A-favicon-%E5%8F%8C%E5%88%97" 
+  img: "logos/baidu.svg"
+  bg_color: "blue"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "知乎免登录"
+  url: "https://greasyfork.org/zh-CN/scripts/25885-%E7%9F%A5%E4%B9%8E%E5%85%8D%E7%99%BB%E5%BD%95" 
+  img: "logos/zhihu.svg"
+  bg_color: "#11223d"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "贴吧免登陆"
+  url: "https://greasyfork.org/zh-CN/scripts/14151-baidu-tieba-no-login"
+  img: "logos/tieba.svg"
+  bg_color: "blue"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+-
+  name: "鼠标手势"
+  url: "https://greasyfork.org/zh-CN/scripts/35466-mouseplus" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [chrome,tool]
+  txt: "游猴插件"
+
+#娱乐
+-
+  name: "刀网"
+  url: "https://www.xd0.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+  txt: "还有点偏技术呢"
+-
+  name: "屌丝青年"
+  url: "http://www.dsqnw.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+-
+  name: "煎蛋网"
+  url: "http://jiandan.net" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+-
+  name: "买家秀"
+  url: "http://www.qipamaijia.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+
+
+-
+  name: "拆分图"
+  url: "http://koalastothemax.com/?" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+-
+  name: "🕷蜘蛛体"
+  url: "http://www.zefrank.com/scribbler/scribblertoo/"   
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+-
+  name: "买家秀助手"
+  url: "http://www.mjxzs.cc/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun]
+-
+  name: "聚游街机"
+  url: "http://www.gotvg.com/"         
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun,game]
+-
+  name: "灵动游戏"
+  url: "http://www.mhhf.net/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun,game]
+-
+  name: "U77"
+  url: "http://www.u77.com/"       
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun,game]
+-
+  name: "街机游戏手机在线玩"
+  url: "http://www.h5gs.com"                                                                     
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [fun,game]
+
+  ## 购物类
+-
+  name: "asd"
+  url: "http://asd-price.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+-
+  name: "什么值得买"
+  url: "https://www.smzdm.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+-
+  name: "券妈妈"
+  url: "https://www.quanmama.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+-
+  name: "赚客吧"
+  url: "http://www.zuanke8.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+
+
+-
+  name: "牛杂"
+  url: "http://www.niuza.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+-
+  name: "北美省钱快报"
+  url: "http://cn.dealmoon.com/" 
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+-
+  name: "海淘返利"
+  url: "http://www.rebatesme.com/zh/promotion/"  
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [shopping]
+
+#   生活类
+
+-
+  name: "《默克诊疗手册》"
+  url: "https://www.msdmanuals.cn/"             
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [life]
+
+
+  # 学习类
+                                                                                                
+-
+  name: "SCI-HUB"
+  url: "https://sci-hub.tw"                           
+  bg_color: "rgba(0,0,0,0)"
+  txt_color: "#ffffff"
+  tags: [study]
+
+
+
+
+
+ #https://zeit.co/  https://Heroku.com             
+
+                                                  
+
+
