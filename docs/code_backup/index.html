@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>建站素材 - 炫猿 oo1.win</title>
+        <title>一些代码备份 - 炫猿 oo1.win</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -69,8 +69,8 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Own <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li class="active">
-    <a href="./">建站素材</a>
+<li >
+    <a href="../ownwebsite/">建站素材</a>
 </li>
                                     
 <li >
@@ -81,8 +81,8 @@
     <a href="../dbCommand_backup/">数据库命令</a>
 </li>
                                     
-<li >
-    <a href="../code_backup/">一些代码备份</a>
+<li class="active">
+    <a href="./">一些代码备份</a>
 </li>
                                     
 <li >
@@ -112,17 +112,17 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../oneBigmimi/">
+                                <a rel="next" href="../dbCommand_backup/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../study/">
+                                <a rel="prev" href="../oldNaviWithMD/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://oo1.win/mkdocs/root/path/docs/ownwebsite.md">Edit on Oo1</a>
+                                <a href="https://oo1.win/mkdocs/root/path/docs/code_backup.md">Edit on Oo1</a>
                             </li>
                     </ul>
                 </div>
@@ -132,36 +132,101 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#_1">建站</a></li>
-            <li><a href="#_2">各种插件/推广代码</a></li>
+        <li class="main active"><a href="#_1">代码备份</a></li>
+            <li><a href="#js">JS</a></li>
+        <li class="main "><a href="#_2">麦客表单：</a></li>
+        <li class="main "><a href="#api">API</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="_1">建站</h1>
+<h1 id="_1">代码备份</h1>
+<p>私人备份空间。建站等用到的一些代码。</p>
+<p>你能用到就拿去用。涉及API的请不要碰。</p>
+<h2 id="js">JS</h2>
 <ul>
-<li><a href="http://www.missevan.com/">可以生成外链播放器</a></li>
+<li>在一起</li>
 </ul>
-<p><a href="https://imgbb.com/">网站图床ImgBB — 免费图片存取/上传图片</a></p>
-<p><a href="http://w3schools.bootcss.com/bootstrap/default.html">Bootstrap 3 Tutorial</a></p>
-<p><a href="http://www.w3school.com.cn/html5/index.asp">HTML 5 文档</a></p>
-<p><a href="http://tool.chinaz.com/">站长工具 - 站长之家</a></p>
-<p><a href="http://zhanzhang.baidu.com/dashboard/index">百度站长平台</a></p>
-<p><a href="https://tongji.baidu.com/web/welcome/login">百度统计</a></p>
-<p><a href="https://zaixianwangyebianji.51240.com/">在线网页编辑器全功能版 - 在线网页编辑器 - 在线HTML编辑器 - HTML编辑 - 在线网页制作软件 - 在线DW</a></p>
-<p><a href="http://www.zzidc.com/">景安-河南专业的多线服务器托管商</a></p>
-<p><a href="http://www.48ym.com/">雷锋站长_免费分享微信源码,织梦模版,商业源码,wap模版,破解源码</a></p>
-<p><a href="https://fontawesome.com/icons?d=gallery">Font Awesome 5</a></p>
-<p><a href="http://www.sfont.cn/">图标素材下载</a></p>
-<p><a href="http://www.freenom.com/zh/index.html?lang=zh">Freenom - 人人都熟悉的名字</a></p>
-<p>网页背景https://www.toptal.com/designers/subtlepatterns/</p>
-<h2 id="_2">各种插件/推广代码</h2>
-<p><a href="http://qun.qq.com/join.html">QQ群官网-一键加群</a></p>
-<p><a href="https://www.seniverse.com/widget/get">心知天气 - 网页天气插件</a></p>
-<p><a href="https://livere.com/">来必力评论</a></p>
-<p><a href="https://www.xianliao.me/account/website-list">闲聊么</a></p>
-<p><a href="http://openmail.qq.com/">QQ邮箱开放平台</a></p>
-<p><a href="http://shang.qq.com/v3/widget.html">QQ推广</a></p></div>
+<p>```javascript
+  &lt;1script language=javascript&gt;
+  function siteTime(){
+  window.setTimeout("siteTime()", 1000);
+  var seconds = 1000
+  var minutes = seconds * 60
+  var hours = minutes * 60
+  var days = hours * 24
+  var years = days * 365</p>
+<p>var today = new Date()
+  var todayYear = today.getFullYear()
+  var todayMonth = today.getMonth()
+  var todayDate = today.getDate()
+  var todayHour = today.getHours()
+  var todayMinute = today.getMinutes()
+  var todaySecond = today.getSeconds()</p>
+<p>/<em> Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+  year - 作为date对象的年份，为4位年份值
+  month - 0-11之间的整数，做为date对象的月份
+  day - 1-31之间的整数，做为date对象的天数
+  hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+  minutes - 0-59之间的整数，做为date对象的分钟数
+  seconds - 0-59之间的整数，做为date对象的秒数
+  microseconds - 0-999之间的整数，做为date对象的毫秒数 </em>/
+  var t1 = Date.UTC(2018,00,1,00,50,00)
+  var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
+  var diff = t2-t1</p>
+<p>var diffYears = Math.floor(diff/years)
+  var diffDays = Math.floor((diff/days)-diffYears<em>365)
+  var diffHours = Math.floor((diff-(diffYears</em>365+diffDays)<em>days)/hours)
+  var diffMinutes = Math.floor((diff-(diffYears</em>365+diffDays)<em>days-diffHours</em>hours)/minutes)
+  var diffSeconds = Math.floor((diff-(diffYears<em>365+diffDays)</em>days-diffHours<em>hours-diffMinutes</em>minutes)/seconds)
+  //注意这里插入到id是ziyu的div里了
+  document.getElementById("ziyu").innerHTML="我们已在一起"+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"
+  }
+  siteTime()
+  </1script>
+  ```</p>
+<ul>
+<li>点击弹出文字</li>
+</ul>
+<p>```javascript
+  <!-- 鼠标特效  -->
+  &lt;1script type="text/javascript"&gt;</p>
+<pre><code>  var a_idx = 0;
+  jQuery(document).ready(function ($) {
+      $("body").click(function (e) {
+          var a = new Array("😛", "😘", "😁", "😍", "😂", "😝", "123", "123", "123", "123");
+          var $i = $("&lt;span/&gt;").text(a[a_idx]);
+          a_idx = (a_idx + 1) % a.length;
+          var x = e.pageX,
+              y = e.pageY;
+          $i.css({
+              "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+              "top": y - 20,
+              "left": x,
+              "position": "absolute",
+              "font-weight": "bold",
+              "color": "white"
+          });
+          $("body").append($i);
+          $i.animate({
+              "top": y - 180,
+              "opacity": 0
+          },
+              1500,
+              function () {
+                  $i.remove();
+              });
+      });
+  });
+</code></pre>
+<p>&lt;1/script&gt;
+  ```</p>
+<h1 id="_2">麦客表单：</h1>
+<p><a target="_blank" href="http://oo1--win.mikecrm.com/DVfGkOw" style="position:fixed;z-index:999;right:-5px;bottom: 20px;display: inline-block;width: 20px;border-radius: 5px;color:white;font-size:14px;line-height:17px;background: #2476CE;box-shadow: 0 0 5px #666;word-wrap: break-word;padding: 10px 6px;border: 2px solid white;">查看表单</a></p>
+<h1 id="api">API</h1>
+<p>我的：qykqBTzbJwjY5yyUrVT6ib</p>
+<p>紫玉的：KNidGJBz2vD8T65nxYUywm</p>
+<p>?url=</p></div>
         </div>
 
         <footer class="col-md-12">
