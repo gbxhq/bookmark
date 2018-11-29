@@ -13,7 +13,7 @@
         <ul>
             <li class="tag"><a data-tooltip="all" href="#"><i class="icon fa fa-th" aria-hidden="true"></i></a></li>
             <li class="tag"><a data-tooltip="精品站" href="#fav"><i class="icon fa fa-star" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="云" href="#cloud"><i class="icon fa fa-cloud" aria-hidden="true"></i></a></li>
+            <li class="tag"><a data-tooltip="云" href="#https%2f%2fbaidu.com"><i class="icon fa fa-cloud" aria-hidden="true"></i></a></li>
             <li class="tag"><a data-tooltip="电影" href="#video"><i class="icon fa fa-youtube" aria-hidden="true"></i></a></li>
             <li class="tag"><a data-tooltip="音乐" href="#music"><i class="icon fa fa-headphones" aria-hidden="true"></i></a></li>
             <li class="tag"><a data-tooltip="软件" href="#soft"><i class="icon fa fa-adn" aria-hidden="true"></i></a></li>
@@ -29,7 +29,94 @@
 </div>
 
 
-    <div class="container"><div class="tile-container">
+    <div class="container">
+        <style type="text/css">
+    .case {
+         
+        width: 100%;
+        height: 30px;
+        overflow: hidden;
+        left: calc(50% - 400px);
+        top: 150px;
+    }
+    .case .part1 {
+        float: left;
+        width: 5%;
+        height: 30px;
+    }
+    .case .part1 icon fa fa-comment {
+        color: white;
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-top: 5px;
+    }
+    .case .part2 {
+        float: left;
+        width: 93%;
+        height: 30px;
+        text-indent: 1em;
+        overflow: hidden;
+    }
+    #part2 ul {
+        width: 100%;
+        height: auto;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    #part2 ul li {
+        width: 100%;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+    <div class="case">
+        <div class="part1">
+        <i class="icon fa fa-comment" aria-hidden="true"></i>
+        </div>
+        <div class="part2" id="part2">
+            <div id="scroll1" font-color="white">
+                <ul>
+                        <li>看不见的小卡片点击有惊喜哦</li>
+                </ul>
+            </div>
+            <div id="scroll2"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        var PartArea = document.getElementById('part2');
+        var Scroll1 = document.getElementById('scroll1');
+        var Scroll2 = document.getElementById('scroll2');
+
+        Scroll2.innerHTML = Scroll1.innerHTML;
+
+        function roll() {
+            if(Scroll2.offsetHeight - PartArea.scrollTop <= 0) {
+                PartArea.scrollTop -= Scroll1.offsetHeight;
+            } else {
+                PartArea.scrollTop++;
+            }
+        }
+
+        var StopRoll = setInterval(roll, 120);
+
+        PartArea.onmouseover = function () {
+            clearInterval(StopRoll);
+        }
+        PartArea.onmouseout = function () {
+            StopRoll = setInterval(roll, 120);
+        }
+
+    </script>
+        <div class="tile-container">
 <a class="tile tile-link" href="https://fulibus.net" data-groups='fav' target="_blank">
     <div class="tile-box"
         data-title='福利吧'
@@ -1101,7 +1188,6 @@
 </a>
 
 </div>
-
 
     </div>
     <a target="_blank" href="http://oo1--win.mikecrm.com/DVfGkOw" 
