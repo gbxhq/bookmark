@@ -106,13 +106,13 @@
             }
         }
 
-        var StopRoll = setInterval(roll, 120);
+        var StopRoll = setInterval(roll, 10000000);
 
         PartArea.onmouseover = function () {
             clearInterval(StopRoll);
         }
         PartArea.onmouseout = function () {
-            StopRoll = setInterval(roll, 120);
+            StopRoll = setInterval(roll, 1200000000);
         }
 
     </script>
