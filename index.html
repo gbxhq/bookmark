@@ -83,9 +83,9 @@
         <div class="part2" id="part2">
             <div id="scroll1" font-color="white">
                 <ul>
-                        <li>由于之前的懈怠，百度从收录中删掉了本站</li>
+                        <li>由于之前的疏忽，百度从收录中删掉了本站</li>
 <li>连“炫猿”这个关键词也已经搜不到我了</li>
-<li>支持一下，<a href="https://ziyuan.baidu.com/linksubmit/url?sitename=https%3A%2F%2Fsite%3Aoo1.win">点这里提交一下申请收录</a></li>
+<li>支持一下，<a href="https://ziyuan.baidu.com/linksubmit/url?sitename=https%3A%2F%2Fsite%3Aoo1.win">点这里</a>帮我提交申请收录</li>
 <li>感谢你的陪伴！</li>
 
                 </ul>
@@ -106,17 +106,17 @@
             if(Scroll2.offsetHeight - PartArea.scrollTop <= 0) {
                 PartArea.scrollTop -= Scroll1.offsetHeight;
             } else {
-                PartArea.scrollTop++;
+                PartArea.scrollTop+=10;
             }
         }
 
-        var StopRoll = setInterval(roll, 60);
+        var StopRoll = setInterval(roll, 600);
 
         PartArea.onmouseover = function () {
             clearInterval(StopRoll);
         }
         PartArea.onmouseout = function () {
-            StopRoll = setInterval(roll, 60);
+            StopRoll = setInterval(roll, 600);
         }
 
     </script>
