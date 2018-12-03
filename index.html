@@ -109,15 +109,22 @@
                 PartArea.scrollTop+=10;
             }
         }
-
-        var StopRoll = setInterval(roll, 600);
-
-        PartArea.onmouseover = function () {
-            clearInterval(StopRoll);
+        function next() {
+            if(Scroll2.offsetHeight - PartArea.scrollTop <= 0) {
+                PartArea.scrollTop -= Scroll1.offsetHeight;
+            } else {
+                PartArea.scrollTop+=30;
+            }
         }
-        PartArea.onmouseout = function () {
-            StopRoll = setInterval(roll, 600);
-        }
+
+        
+
+        
+        
+        
+        
+        
+        
 
     </script>
         <div class="tile-container">
@@ -501,14 +508,14 @@
     <div class="tile-title"> 爱情守望者  </div>
 </a>
 
-<a class="tile tile-link" href="https://mac-torrent-download.net/" data-groups='soft' target="_blank">
+<a class="tile tile-link" data-tooltip="最新！最全！但是注意了，这个网站下载下来可用的文件是一个种子文件。其余的弹窗、自动下载的安装包一律不要碰。我就因为年轻不懂事在Mac上中了招。"href="https://mac-torrent-download.net/" data-groups='soft' target="_blank">
     <div class="tile-box"
-        data-title='Mac破解软件'
-        data-url='Mac%e7%a0%b4%e8%a7%a3%e8%bd%af%e4%bb%b6'
+        data-title='Mac破解软件[慎用]'
+        data-url='Mac%e7%a0%b4%e8%a7%a3%e8%bd%af%e4%bb%b6[%e6%85%8e%e7%94%a8]'
         data-bg-color='#330000'data-txt-color='#ffffff'data-img='logos/apple.svg'style='background-color:#330000; color:#ffffff'>
         <img class="logo" src="logos/apple.svg"></img>
     </div>
-    <div class="tile-title"> Mac破解软件  </div>
+    <div class="tile-title"> Mac破解软件[慎用]  </div>
 </a>
 
 <a class="tile tile-link" data-tooltip="iOS越狱相关"href="https://www.abcydia.com" data-groups='soft,star,tool' target="_blank">
