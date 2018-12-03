@@ -3299,6 +3299,7 @@ nav li a {
 [data-tooltip]::after {
     content: attr(data-tooltip);
     position: absolute;
+    
     top: -20px;
     left: 30px;
     pointer-events: none;
@@ -3308,11 +3309,12 @@ nav li a {
     -ms-transition: opacity .15s ease-in-out;
     -o-transition: opacity .15s ease-in-out;
     transition: opacity .15s ease-in-out;
-    display: block;
+    /* display: block; */
+    display: cell;
     /* font-size: 12px; */
-    font-size: 18px;
+    font-size: 10px;
     line-height: 28px;
-    background: rgba(85, 224, 50, 0.966);
+    background: rgb(61, 80, 168);
     padding: 2px 2px;
     border: 1px solid rgba(0, 0, 0, .8);
     box-shadow: 2px 4px 5px rgba(0, 0, 0, .4);
