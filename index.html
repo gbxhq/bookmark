@@ -103,7 +103,7 @@
             if(Scroll2.offsetHeight - PartArea.scrollTop <= 0) {
                 PartArea.scrollTop -= Scroll1.offsetHeight;
             } else {
-                PartArea.scrollTop+=10;
+                PartArea.scrollTop+=1;
             }
         }
         function next() {
@@ -114,13 +114,13 @@
             }
         }
 
-        var StopRoll = setInterval(roll, 600);
+        var StopRoll = setInterval(roll, 1500);
 
         PartArea.onmouseover = function () {
             clearInterval(StopRoll);
         }
         PartArea.onmouseout = function () {
-            StopRoll = setInterval(roll, 600);
+            StopRoll = setInterval(roll, 1500);
         }
 
     </script>
