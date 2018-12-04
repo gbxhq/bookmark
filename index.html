@@ -114,14 +114,14 @@
             }
         }
 
-        
+        var StopRoll = setInterval(roll, 600);
 
-        
-        
-        
-        
-        
-        
+        PartArea.onmouseover = function () {
+            clearInterval(StopRoll);
+        }
+        PartArea.onmouseout = function () {
+            StopRoll = setInterval(roll, 600);
+        }
 
     </script>
         <div class="tile-container">
@@ -195,7 +195,7 @@
     <div class="tile-title"> </div>
 </a>
 
-<a class="tile tile-link" data-tooltip="可定制的导航、强推"href="http://www.gitnavi.com/" data-groups='fav' target="_blank">
+<a class="tile tile-link" data-tooltip="可定制的导航、强推"href="http://www.gitnavi.com/u/judasn/" data-groups='fav' target="_blank">
     <div class="tile-box"
         data-title='GITNAVI'
         data-url='GITNAVI'
