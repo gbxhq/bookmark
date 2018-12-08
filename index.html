@@ -8,6 +8,7 @@
 
 
 <body >
+    
     <div class="nav-panel">
     <nav>
         <ul>
@@ -30,6 +31,85 @@
 
 
     <div class="container">
+            <style type="text/css">
+      .black_overlay{
+         display: none; 
+         position: absolute;  
+         top: 0%;  
+         left: 0%;  
+         width: 100%;  
+         height: 100%;  
+         background-color: #ffffff;  
+         z-index:1001;  
+         -moz-opacity: 0.8;  
+         opacity:.80;  
+         filter: alpha(opacity=80);  
+    } 
+    .white_content {
+        display: none;  
+        position: absolute; 
+        top: 10%; 
+        left: 30%;             
+        background-color: white; 
+        z-index:1002;  
+        overflow: auto;
+    }  
+</style>
+<div id="light_weixin" class="white_content">  
+        <img src='https://x-1251392318.cos.ap-beijing.myqcloud.com/hongbao.png?q-sign-algorithm=sha1&q-ak=AKIDSeopOqIAIxUuL40s7v9tuwr0aeIYESmP&q-sign-time=1544236110;1544237910&q-key-time=1544236110;1544237910&q-header-list=&q-url-param-list=&q-signature=c72a3229312a489d680b95f9fdd427f11f59b164&x-cos-security-token=4255bc8a6d0a7773b0555ba8e36cd38c98173d7a10001' />
+    </div>
+    <div id="light_qq" class="white_content"> 
+            <img src='https://www.baidu.com/img/baidu_jgylogo3.gif' />  
+</div>
+
+<div class="top_contact_us">
+    <div class="top_telphone"></div>
+    <div class="top_weixin"><a href="#" id="contact_weixin" onclick="openWindow(this) "style="position:fixed;
+        z-index:999;
+        right:-5px;
+        bottom: 600px;
+        display: inline-block;
+        width: 20px;
+        border-radius: 5px;
+        color:white;
+        font-size:14px;
+        line-height:17px;
+        background: #2476CE;
+        box-shadow: 0 0 5px #666;
+        word-wrap: break-word;
+        padding: 10px 6px;
+        border: 2px solid white;">子良快去花你的红包啊</a></div>  
+    
+</div>
+
+
+
+
+<div id="fade" class="black_overlay"  onClick="closeWindow()">
+</div>
+
+<script  type="text/javascript">
+    function openWindow(obj){
+        var qq_or_weixin = "light_qq";
+        switch(obj.id)
+        {
+            case 'contact_weixin':
+            qq_or_weixin = "light_weixin";
+            break;
+            
+            case 'contact_qq':
+            qq_or_weixin = "light_qq";
+            break;
+        }
+        document.getElementById(qq_or_weixin).style.display='table-caption';
+        document.getElementById('fade').style.display='block';
+    }
+    function closeWindow(){
+        document.getElementById('light_weixin').style.display='none';
+        document.getElementById('light_qq').style.display='none';
+        document.getElementById('fade').style.display='none';
+    }
+</script>
         <style type="text/css">
     .case {
          
@@ -84,7 +164,6 @@
             <div id="scroll1" font-color="white">
                 <ul>
                         <li>打开支付宝搜索4834948支持一下我（支付宝12月放水 红包出大额）</li>
-<li>*子良大兄弟，你这个25.8的大红包记得消费啊！哈哈哈😘，竟然有这么大的</li>
 <li>网站征集：免费且资源比较全的学习教程网哪位老铁提供下</li>
                 </ul>
             </div>
@@ -104,7 +183,7 @@
             if(Scroll2.offsetHeight - PartArea.scrollTop <= 0) {
                 PartArea.scrollTop -= Scroll1.offsetHeight;
             } else {
-                PartArea.scrollTop+=1;
+                PartArea.scrollTop+=30;
             }
         }
         function next() {
@@ -115,16 +194,17 @@
             }
         }
 
-        var StopRoll = setInterval(roll, 750);
+        var StopRoll = setInterval(roll, 3000);
 
         PartArea.onmouseover = function () {
             clearInterval(StopRoll);
         }
         PartArea.onmouseout = function () {
-            StopRoll = setInterval(roll, 750);
+            StopRoll = setInterval(roll, 2400);
         }
 
     </script>
+        
         <div class="tile-container">
 <a class="tile tile-link" href="https://fulibus.net" data-groups='fav' target="_blank">
     <div class="tile-box"
@@ -1185,7 +1265,7 @@
     word-wrap: break-word;
     padding: 10px 6px;
     border: 2px solid white;">
-        推荐你这样使用炫猿
+        推荐阅读
     </a>
     <a target="_blank" href="http://oo1--win.mikecrm.com/DVfGkOw" style="position:fixed;
         z-index:999;
