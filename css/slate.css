@@ -3309,8 +3309,8 @@ nav li a {
     -ms-transition: opacity .15s ease-in-out;
     -o-transition: opacity .15s ease-in-out;
     transition: opacity .15s ease-in-out;
-    /* display: block; */
-    display: cell;
+    display: block;
+    /* display: cell; */
     /* font-size: 12px; */
     font-size: 10px;
     line-height: 28px;
