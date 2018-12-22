@@ -3167,7 +3167,7 @@ body {
     width: 188px;
     max-width: 188px;
     border-radius: 10px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .8), 0 2px 8px rgba(0, 0, 0, 0.8);
     box-sizing: border-box;
     background: #000;
     font-size: 21px;
@@ -3207,8 +3207,8 @@ body {
 }
 
 .nav-panel {
-    background: rgba(0, 0, 0, .1);
-    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    height: 200%;
     position: fixed;
     left: 0;
     top: 0;
@@ -3218,7 +3218,7 @@ body {
 }
 
 .nav-panel:hover {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 1);
     transition: background .5s ease-in-out
 }
 
@@ -3300,7 +3300,7 @@ nav li a {
     content: attr(data-tooltip);
     position: absolute;
     
-    top: -20px;
+    top: 0px;
     left: 30px;
     pointer-events: none;
     opacity: 0;
@@ -3314,10 +3314,10 @@ nav li a {
     /* font-size: 12px; */
     font-size: 10px;
     line-height: 28px;
-    background: rgb(61, 80, 168);
-    padding: 2px 2px;
-    border: 1px solid rgba(0, 0, 0, .8);
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, .4);
+    background: rgb(211, 99, 221);
+    padding: 2px 6px;
+    border: 0px solid rgba(0, 0, 0, .8);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, .4);
     color: #fff
 }
 
