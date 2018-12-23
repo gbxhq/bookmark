@@ -14,6 +14,10 @@
     font-family: FZYanSongM;
     src: url(../fonts/FZYanSongM.ttf)
 }
+@font-face{
+    font-family: yrd;
+    src: url(../fonts/yrd.ttf)
+}
 
 .fa {
     display: inline-block;
@@ -3054,8 +3058,8 @@ body {
     margin-left: 50px;
     color: #000;
     fill: #000;
-    /* background-image: radial-gradient(ellipse farthest-side at center top, #fcfcfc 0, #657383 100%) */
-    background-image: radial-gradient(ellipse farthest-side at center top, #000 0, #000 100%)
+    background-image: radial-gradient(ellipse farthest-side at center top, #fcfcfc 0, #657383 100%)
+    /* background-image: radial-gradient(ellipse farthest-side at center top, #000 0, #000 100%) */
 }
 
 .container {
