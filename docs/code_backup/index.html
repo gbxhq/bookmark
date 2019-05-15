@@ -173,8 +173,9 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#_1">代码备份</a></li>
+            <li><a href="#_2">福吧论坛自动签到</a></li>
             <li><a href="#js">JS</a></li>
-        <li class="main "><a href="#_2">麦客表单：</a></li>
+        <li class="main "><a href="#_3">麦客表单：</a></li>
         <li class="main "><a href="#api">API</a></li>
     </ul>
 </div></div>
@@ -183,6 +184,64 @@
 <h1 id="_1">代码备份</h1>
 <p>私人备份空间。建站等用到的一些代码。</p>
 <p>你能用到就拿去用。涉及API的请不要碰。</p>
+<h2 id="_2">福吧论坛自动签到</h2>
+<pre><code class="python"># -*- coding: utf8 -*-
+
+import requests
+import re
+import time
+from urllib.parse import quote
+
+def start():
+    try:
+        s = requests.session()
+        username = '用户名'
+        password = '密码'
+
+        headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                   'Accept - Encoding':'gzip, deflate, br',
+                   'Accept-Language':'zh-CN,zh;q=0.9',
+                   'cache-control':'max-age=0',
+                   'Host':'www.wnflb19.com',
+                   'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1'}
+
+        login_url = 'http://www.wnflb19.com/member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;loginhash=Lh0Ed&amp;mobile=2&amp;handlekey=loginform&amp;inajax=1'
+
+        s.get('http://www.wnflb19.com/')
+        s.get('http://www.wnflb19.com/member.php?mod=logging&amp;action=login&amp;mobile=2')
+
+        r = s.post(login_url, {'fastloginfield':'username',&quot;username&quot;: username, 'password': password,'questionid':0,'answer':''}, headers=headers)
+
+        #访问Pc主页获取积分
+        user_info = s.get('http://www.wnflb19.com/forum.php?mobile=no').text
+
+        #获取签到链接,并签到
+        qiandao_url = re.search(r'}function fx_checkin(.*?);', user_info).group(1)
+        qiandao_url = qiandao_url[47:-2]
+        print(qiandao_url)
+        #签到
+        s.get('http://www.wnflb19.com/'+ qiandao_url ).text
+
+        #获取积分
+        user_info = s.get('http://www.wnflb19.com/forum.php?mobile=no').text
+        current_money = re.search(r'&lt;a.*? id=&quot;extcreditmenu&quot;.*?&gt;(.*?)&lt;/a&gt;', user_info).group(1)
+        print(current_money)
+
+    except Exception as e:
+        print(&quot;签到失败，通知SERVER酱！&quot;)
+        requests.get('https://sc.ftqq.com/SCKEY.send?text=' + quote('wnflb自动签到失败~'+time.strftime('%Y.%m.%d',time.localtime(time.time()))) +'&amp;desp='+quote('异常代码：\n'+str(e)))
+
+
+
+def main_handler(event, context):
+    return start()
+
+
+if __name__ == '__main__':
+    start()
+
+</code></pre>
+
 <h2 id="js">JS</h2>
 <ul>
 <li>在一起</li>
@@ -261,7 +320,7 @@
 </code></pre>
 <p>&lt;1/script&gt;
   ```</p>
-<h1 id="_2">麦客表单：</h1>
+<h1 id="_3">麦客表单：</h1>
 <p><a target="_blank" href="http://oo1--win.mikecrm.com/DVfGkOw" style="position:fixed;z-index:999;right:-5px;bottom: 20px;display: inline-block;width: 20px;border-radius: 5px;color:white;font-size:14px;line-height:17px;background: #2476CE;box-shadow: 0 0 5px #666;word-wrap: break-word;padding: 10px 6px;border: 2px solid white;">查看表单</a></p>
 <h1 id="api">API</h1>
 <p>我的：qykqBTzbJwjY5yyUrVT6ib</p>
