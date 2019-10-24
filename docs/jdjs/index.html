@@ -93,9 +93,9 @@
 
 <h1 id="_1">炫猿线报</h1>
 <h2 id="_2">京东养红包脚本</h2>
-<p>Chrome浏览器打开京东登录，确保登录状态。</p>
-<p>打开<a href="https://happy.m.jd.com/babelDiy/GZWVJFLMXBQVEBDQZWMY/XJf8bH6oXDWSgS91daDJzXh9bU7/index.html#/index">https://happy.m.jd.com/babelDiy/GZWVJFLMXBQVEBDQZWMY/XJf8bH6oXDWSgS91daDJzXh9bU7/index.html#/index 炫猿线报oo1.win</a>:</p>
-<p>F12=&gt;console=&gt;粘贴下面脚本</p>
+<p>1、Chrome浏览器打开京东登录<a href="https://passport.jd.com/uc/login">https://passport.jd.com/uc/login#炫猿</a>，确保登录状态。</p>
+<p>2、打开<a href="https://happy.m.jd.com/babelDiy/GZWVJFLMXBQVEBDQZWMY/XJf8bH6oXDWSgS91daDJzXh9bU7/index.html#/index">https://happy.m.jd.com/babelDiy/GZWVJFLMXBQVEBDQZWMY/XJf8bH6oXDWSgS91daDJzXh9bU7/index.html#/index 炫猿线报oo1.win</a>:</p>
+<p>3、F12=&gt;console=&gt;粘贴下面脚本</p>
 <pre><code class="js">let productList = [], shopList = [], url = &quot;https://api.m.jd.com/client.action&quot;;
 function autoPost(id,type){
         fetch(`${url}?timestamp=${new Date().getTime()}`,{method: &quot;POST&quot;,mode: &quot;cors&quot;,credentials: &quot;include&quot;,headers:{&quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded&quot;},body:`functionId=raisepacket_collectScore&amp;body={&quot;type&quot;:${type},&quot;ext&quot;:&quot;${id}&quot;,&quot;appsign&quot;:1,&quot;msgsign&quot;:2}&amp;client=wh5`})
