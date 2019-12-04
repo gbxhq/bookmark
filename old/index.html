@@ -1,0 +1,777 @@
+layout: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>炫猿|后PC时代的玩法</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--图标字体-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="炫猿,炫猿导航,oo1.win,链接分享"/>
+    <meta name="description" content="炫猿是一款网址导航，旨在分享最新、最实用的链接，导航内容每天更新。后PC时代，让网站更美好"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        body {
+            font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+            margin-top:50px;
+            background: black;
+            background-image:url(bg.jpg);
+            background-repeat:repeat-x;
+            background-attachment:fixed;
+            background-size: cover;
+            width: 100%;
+        }
+        .daohang {
+            position: fixed;
+            top:0px;
+            left: 0px;
+            width: 2160px;
+            z-index: 1;
+        }
+        /*box阴影效果*/
+        .navbox{
+            color:white;
+            -webkit-box-shadow: 12px -3px 12px -17px rgba(0,0,0,1);
+            -moz-box-shadow: 12px -3px 12px -17px rgba(0,0,0,1);
+            box-shadow: 12px -3px 12px -17px rgba(0,0,0,1);
+        }
+        .navbox a:not(.hei){
+            /*border-style: solid;*/
+            /*border-color:  #909090 ;*/
+            /*opacity: 1;*/
+            text-decoration:none;
+            color: white;
+            font-size: 18px;
+        }
+        .navbox a:link:not(.hei){color:white;text-decoration:none;}
+        .navbox a:visited:not(.hei){color:floralwhite;text-decoration:none;}
+        .navbox a:hover:not(.hei){
+            color: yellow;
+            text-decoration:none;
+        }
+        .hei{
+            color: black;
+            font-size: 18px;
+        }
+        nav li{
+            float: left;
+        }
+        /*表格样式*/
+        table tr td{
+            vertical-align: middle;
+            vert-align: middle;
+            horiz-align: center;
+            text-align: center;
+            border:1px solid transparent !important;
+        }
+
+        .ID {
+            width: 12%;
+            font-size: 18px;
+        }
+        td:not(.ID) {
+            width: 22%
+        }
+    </style>
+    <base target="_blank"/>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+<div class="container">
+    <!--导航-->
+    <nav class="navbar navbar-inverse daohang" role="navigation">
+        <!--充满全屏-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"><b style="color: floralwhite">炫猿</b><small class="visible-lg-inline visible-xs-inline">|后PC时代的玩法</small></a>
+            </div>
+            <!--大屏下显示全称-->
+            <div class="navbar-collapse js-navbar-scrollyspy visible-lg" id="gundong">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a target="_self" href="#jpz">精品站</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="#zydq">资源大全</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="#zxgj">在线工具</a>
+                    </li>
+                    <li><a target="_self" href="#wlds">无聊到死</a></li>
+                    <li><a target="_self" href="#brxx">不如学习</a></li>
+                    <li><a target="_self" href="#hckz">红尘客栈</a></li>
+                    <li><a target="_self" href="#qfgn">前方高能</a></li>
+                    <li><a target="_self" href="#wgfl">网购福利</a></li>
+                    <li><a target="_self" href="#jshw">绝世好文</a></li>
+                    <li><a target="_self" href="#ysjm">影视节目</a></li>
+                    <li><a target="_self" href="#zydh">专业导航</a></li>
+                    <li class="dropdown pull-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a  href="history.html"><font color="red">炫猿-历史推荐/留言板</font></a></li>
+                            <li><a href="/old">访问老版</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--中屏显示缩写、小屏全隐藏-->
+            <div class="navbar-collapse js-navbar-scrollyspy hidden-lg hidden-xs" id="gundong">
+                <ul class="nav navbar-nav">
+                    <li><a target="_self" href="#jpz">精</a></li>
+                    <li><a target="_self" href="#zydq">资源</a></li>
+                    <li><a target="_self" href="#zxgj">工具</a></li>
+                    <li><a target="_self" href="#wlds">无聊</a></li>
+                    <li><a target="_self" href="#brxx">学</a></li>
+                    <li><a target="_self" href="#hckz">红尘</a></li>
+                    <li><a target="_self" href="#qfgn">高能</a></li>
+                    <li><a target="_self" href="#wgfl">购</a></li>
+                    <li><a target="_self" href="#jshw">文</a></li>
+                    <li><a target="_self" href="#ysjm">视</a></li>
+                    <li><a target="_self" href="#zydh">航</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--公告栏-->
+<!--     <div class="container">
+        <div class="alert alert-success" role="alert">
+            <button class="close" type="button" data-dismiss="alert">
+                <span aria-disabled="true">&times;</span>
+            </button>
+           <a href="https://www.52pojie.cn/?fromuser=chinalixs">吾爱破解2018年3月13日十周年开放注册。</a>需要的留意了。吾爱破解会清理不活跃会员。注册了记得回回贴。 
+<a href="http://saveurl.kikinote.net/40059">c老师流出作品 国外网盘网速感人建议梯子</a>
+        </div>
+    </div> -->
+
+
+    <!--精品站-->
+    <div class="table-responsive navbox">
+            <center><a rel="nofollow noopener" data-toggle="tooltip" href="http://oo1.win">
+                您所浏览的是old炫猿导航 快照</br>请点击访问全新版网站
+            </a></center>
+        <table id="jpz" class="table">
+            <tr>
+                <td class="ID" rowspan="3">
+                    <i class="far fa-star fa-spin"></i>
+                    <br>精
+                    <br>品
+                    <br>站
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://fuliba.net"  title="分享你的福利吧">
+                        福利吧
+                    </a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.52pojie.cn/"  title="来自360的H大">
+                        吾爱破解
+                        </button>
+                </td>
+                <td>
+                    <div class="dropdown ">
+                        <a rel="nofollow noopener" href="#" class="dropdown-toggle" data-toggle="dropdown">云服务
+                            <i class="fas fa-cloud"></i>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a class="hei" rel="nofollow noopener" data-toggle="tooltip" href="https://pan.baidu.com"  title="百度云不限速方法见本站文章">
+                                    百度
+                                    <i class="fas fa-cloud"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hei" rel="nofollow noopener" data-toggle="tooltip" href="http://pan.stnts.com/index"  title="百度云不限速方法见本站文章">
+                                    盛天
+                                    <i class="fas fa-cloud"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hei" rel="nofollow noopener" data-toggle="tooltip" href="https://www.lanzou.com/"  title="后起之秀虽不限速，但文件大小不允许超100M">
+                                    蓝奏
+                                    <i class="fas fa-cloud"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://bilibili.tv"  title="知道你们都在上啦，我是来凑格子的">
+                        <i class="fab fa-youtube"></i>哔哩哔哩
+                        </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://bbs.pcbeta.com/"  title="最强Win论坛 捎带黑苹果">
+                        <i class="fab fa-windows"></i> 远景论坛</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://bbs.feng.com"  title="玩iPhone不知道威锋？">
+                        <i class="fab fa-apple"></i> 威锋论坛</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://coolapk.com"  title="安卓老司机必备">
+                        <i class="fab fa-android"></i> 酷安市场</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://xclient.info/"  title="Mac精品站">
+                        <i class="fab fa-apple"></i> xclient</a>
+                </td>
+            </tr>
+            <tr id="zydq">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://ojbk.us/" title="解析tumblr[可批量]、91、恋恋、微博">
+                        <i class="far fa-star fa-spin"></i>高能解析站
+                        </a>
+                </td>
+
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.jiexiba.tech/#/" title="解析91、蝌蚪窝、国内视频站VIP">
+                        高能解析站2
+                        </a>
+                </td>
+                <td>
+                    <a data-toggle="modal" data-target="#gjyzjss" hrUCef="#">
+                        国邮政局申诉
+                    </a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="/history.html" title="欢迎提意见~">
+                    炫猿留言板
+                </a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <!--资源大全-->
+    <div class="table-responsive navbox">
+        <table class="table">
+            <tr>
+                <td class="ID" rowspan="4">
+                    <i class="fas fa-download"></i>
+                    <br>资
+                    <br>源
+                    <br>大
+                    <br>全</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.zdfans.com/"  title="绿色软件下载站">ZD423</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.appinn.com/"  title="各大平台的好用软件">小众软件</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.zdfans.com/?s=kms" >
+                        <i class="fab fa-windows"></i> KMS激活Windows</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.nruan.com/"  title="网站改版 拿激活码的方法以及各系统激活方法见我的文章">
+                        <i class="fab fa-windows"></i> Win激活码</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://fengqingwuhen.blog.163.com/"  title="这位大神一直在更新 真的是极度精简Office 强推">精简Office</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://url88.cn/u/14locJ"  title="变砖？锁屏？不存在的">
+                        <i class="fab fa-android"></i> 安卓线刷包大全</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.itellyou.cn/"  title="原生Windows下载">
+                        <i class="fab fa-windows"></i> MSDN</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://sg.ercy.vip"  title="音乐都不好下载了">
+                        <i class="fas fa-music"></i> 音乐下载</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.82ke.com/"  title="电影电视剧综艺音乐">
+                        <i class="fas fa-film"></i> 94神马在线电影</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.kankanwu.com/"  title="电影电视剧">
+                        <i class="fas fa-film"></i> 看看屋在线</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://ifkdy.com"  titile="整合各网站影视资源搜索下载">
+                        <i class="fas fa-film"></i> 疯狂影视搜索★</button>
+                </td>
+
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://subhd.com/main3" >字幕下载</button>
+                </td>
+            </tr>
+            <tr id="zxgj">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.minimp4.com/"  title="有百度云有磁力的电影下载站">
+                        <i class="fas fa-film"></i> 迷你MP4</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.xunyingwang.com/"  title="有百度云有磁力的电影下载站">
+                        <i class="fas fa-film"></i> 迅影网</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.gscq.me"  title="HQC影视小组和GBT游戏小组.提供电影电视游戏种子">
+                        <i class="fas fa-film"></i> 
+                        <i class="fas fa-gamepad"></i> 乐赏</button>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://www.owllook.net/" >网络小说下载</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--在线工具-->
+    <div class="table-responsive navbox">
+        <table class="table table-borderd">
+            <tr>
+                <td class="ID" rowspan="9">
+                    <i class="fas fa-wrench"></i>
+                    <br>在
+                    <br>线
+                    <br>工
+                    <br>具</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://wx.qq.com/?&lang=zh_CN" target="_blank><i class=" fa fa-weixin " ></i>  微信网页版</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://w.qq.com/ " target="_blank "><i class="fab fa-qq" ></i>QQ网页版</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://note.youdao.com " target="_blank " title="国内最好用笔记 ">有道云笔记</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://vip.mrabit.com/ " target="_blank " title="拿网易云的.mp3链接放QQ空间用咯
+                    "><i class="fas fa-music " ></i>  音乐外链(主流平台)</a></td>
+
+            </tr>
+            <tr>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://chaipip.com/ " target="_blank ">高精度IP地址查询1</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://www.opengps.cn/Data/IP/LocHighAcc.aspx " target="_blank ">高精度IP地址查询2</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://weibo.iiilab.com/ " target="_blank " title="解析下载微博、秒拍、今日头条、西瓜视频、内涵段子、火山、快手、抖音、美拍、muse(musical.ly)、小影、阳光宽频等平台
+                    "><i class="fab fa-weibo " ></i>小视频解析★</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://dy.52xyuguo.com" target="_blank " title="全网各大平台VIP
+                    "><i class="fab fa-video-camera " ></i>  VIP视频解析</a></td>
+            </tr>
+            <tr>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://591mov.com/zh-hans/url_trans/ " target="_blank ">迅雷、旋风链接转换</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.torrent.org.cn/ " target="_blank ">种子-磁力转换</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://imgbb.com " target="_blank " title="歪果仁的 "><i class="fas fa-images"></i>图床</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://sm.ms/ " target="_blank " title="致某网友：感谢你的图床~"><i class="fas fa-images"></i>图床2</a></td>
+            </tr>
+            <tr>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://id.8684.cn/ " target="_blank " title="其实最难找的是未成年sfz "> sfz大全</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://wxbbx.jh1z.com " target="_blank " title="微信工作者工具集 ">微信百宝箱</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://notepad.1976f.com/oo1" target="_blank " title="使用时请将后缀oo1改成其他的"><i class="fas fa-file-text-o " ></i>  云Txt</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://lezi.tk/ " target="_blank " title="接验证码？发投诉信？让我来！
+                    "><i class="fas fa-envelope " ></i>  临时邮箱</a></td>
+            </tr>
+            <tr>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://uzer.me/ " target="_blank " title="Mac从此无需双系统 完美运行Win大型软件 ">在线云应用（大型软件）</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://www.processon.com/ " target="_blank " title="画个流程图啥的炒鸡好用 ">在线UML</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://cn.office-converter.com/ " target="_blank " title="文档、视频、音乐、图片、压缩，哥都可以转 ">在线格式转换</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://ocr.wdku.net/ " target="_blank " title="OCR的普及 ">在线OCR</a></td>
+            </tr>
+            <tr id="wlds">
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.lingdushuma.com/quotes.html " target="_blank " title="真正的手机报价 ">正真的手机报价</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://act.feng.com/wetools/index.php?r=iosJailbreak/index
+                    " target="_blank ">iOS可越狱版本查询</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://api.ineal.me/tss/status " target="_blank " title="敢不敢折腾，先查一查 ">查询iOS版本是否关闭验证</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://act.feng.com/wetools/index.php?r=appleinfo/index " target="_blank
+                    " title="可查询到您产品的型号、出厂日期、销售地、保修期等的苹果官方信息，帮助您识别产品的真伪 ">苹果产品信息查询</a></td>
+            </tr>
+        </table>
+    </div>
+    <!--无聊到死-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td  class="ID " rowspan="4 " style="text-align: center;vertical-align: middle;font-size: 16pt;
+                "width=12%><i class="fas fa-meh-o " ></i><br>无<br>聊<br>到<br>死</td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.gscq.me " target="_blank " title="HQC影视小组和GBT游戏小组.提供电影电视游戏种子
+                "><i class="fas fa-film " ></i>+<i class="fas fa-gamepad " ></i>  乐赏</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.u77.com/ " target="_blank " title="Flash游戏也精彩
+                "><i class="fas fa-gamepad " ></i>  U77小游戏</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.mhhf.net/ " target="_blank " title="童年Flash回忆
+                "><i class="fas fa-gamepad " ></i>  灵动游戏</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.gotvg.com/ " target="_blank " title="联机打拳皇 童年回忆
+                "><i class="fas fa-gamepad " ></i>  聚游街机</a></td>
+            </tr>
+            <tr>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.emu618.net/ " target="_blank " title="童年回忆不解释 "><i class="fas
+                    fa-gamepad " ></i>  模拟游戏大全</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.gamersky.com/ " target="_blank " title="单机 "><i class="fas fa-gamepad
+                    " ></i>  游民星空</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.3dmgame.com/ " target="_blank " title="单机 "><i class="fas fa-gamepad
+                    " ></i>  三大妈</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.ali213.net/ " target="_blank " title="单机 "><i class="fas fa-gamepad
+                    " ></i>  游侠网</a></td>
+            </tr>
+            <tr id="brxx">
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="github.com/getlantern/lantern " target="_blank " title="这是干什么的？ ">蓝灯Github</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://jiandan.net " target="_blank " title="综合性娱乐网站，还有福利 ">煎蛋网</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.qipamaijia.com/ " target="_blank " title="真挺奇葩的 ">奇葩买家秀</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://koalastothemax.com/? " target="_blank " title="想换自己的图片在链接的？后添加图片Url即可 ">拆分图 （有意思）</a></td>
+            </tr>
+        </table>
+    </div>
+    <!--不如学习-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="4"><i class="fas fa-graduation-cap " ></i><br>
+                    不<br>
+                    如<br>
+                    学<br>
+                    习</td>
+            <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://sci-hub.cc/ " rel="noopener " target="_blank" title="输入链接/DOI/PubMed号，下载任意SCI文献">SCI-Hub</a></td>
+            <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://sci-hub.bz/ " rel="noopener " target="_blank ">SCI-Hub 2</a></td>
+            <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://scholar.chongbuluo.com/ " target="_blank ">虫部落学术搜索</a></td>
+            <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://bbs.chongbuluo.com/ " target="_blank ">虫部落学术社区</a></td>
+        </tr>
+            <tr id="hckz">
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://123.paomianba.com " target="_blank " titile="在线教育导航 ">泡面吧</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://g.kfd.me " rel="noopener " target="_blank ">wiki\google镜像</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://gufenso.huizhanzhang.com/ " rel="noopener " target="_blank ">谷粉搜/</a></td>
+            </tr>
+        </table>
+    </div>
+    <!--红尘客栈-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td  class="ID " rowspan="5"><i class="fas fa-bomb " ></i><br>红<br>尘<br>客<br>栈</td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.mzitu.com " target="_blank ">妹子图</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://hiowner.com " target="_blank ">豆瓣妹子</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="https://huaban.com/favorite/beauty/ " target="_blank ">花瓣</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://jandan.net/ooxx " target="_blank ">煎蛋妹子</a></td>
+            </tr>
+            <tr id="qfgn">
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.xingyun.cn/yanlist/ " rel="noopener " target="_blank ">颜值FacePower</a></td>
+                <td><a rel="nofollow noopener" data-toggle="tooltip" href="http://www.nudecollect.com/rosi/index/category/1-rosi " target="_blank ">Rosi写真</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <!--前方高能-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="3 ">
+                    <i class="fas fa-bug " ></i><br>前<br>方<br>高<br>能</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://lx.heikeyun.net/login.aspx " target="_blank " title="目前使用最稳定
+                每天免费次数限制 ">
+                        <i class="fas fa-video-camera " ></i> 黑科云 云播</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://btkitty.pet/ " target="_blank " title="比较好用的磁力引擎 ">btkitty磁力</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://angel-face.co/ " target="_blank " title="天使识别系统 需v屁n ">天使颜</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.jiexiba.tech/#/ " target="_blank " title="可能需要魔法上网 ">91视频解析</a>
+                </td>
+            </tr>
+            <tr id="wgfl">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://apiv.ga/magnet/ " target="_blank ">九秒磁力播</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://magnet.chongbuluo.com/ " target="_blank ">虫部落资源收割磁力</a>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <!--网购福利-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="5 ">
+                    <i class="fas fa-shopping-cart " ></i><br>网<br>购<br>福<br>利</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.quanmama.com " target="_blank " title="提供各大平台的优惠券 ">券妈妈</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://niuza.com " target="_blank " title="高性价比比价商品推荐 ">牛杂网</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://cn.dealmoon.com " target="_blank " title="海淘商品推荐 ">北美省钱快报</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.rebatesme.com/zh/promotion/ " target="_blank " title="海淘返利 ">RebatesMe</a>
+                </td>
+            </tr>
+            <tr id="jshw">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://zhushou.huihui.cn " target="_blank " title="全网比价、价格走势、一键海淘 ">惠惠比价助手</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.zuanke8.com/re.php " target="_blank " title="各种活动、福利 ">赚客吧热贴</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.xianbao5.com " target="_blank " title="各种活动、福利 ">线报屋</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://2.taobao.com " target="_blank " title="淘二手好货，看脸 ">闲鱼</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--绝世好文-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="3 ">
+                    <i class="fab fa-bookmark " ></i><br>绝<br>世<br>好<br>文</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://love.appinn.com/ " target="_blank " title="小众软件出品 ">
+                        <i class="fab fa-windows " ></i> PC各类软件推荐</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/
+                    " target="_blank " title="付了份流氓名单，你是否在用呢 ">
+                        <i class="fab fa-windows " ></i> Windows 绝赞应用</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://jaywcjlove.github.io/awesome-mac/index.zh.html " target="_blank
+                    " title="上一个就是受此文启发 ">
+                        <i class="fab fa-apple " ></i> Mac 绝赞应用</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.runningcheese.com/windows10 " target="_blank " title="不仅是软件推荐
+                    PS：这位是我超喜欢的博主奶酪，他写的每一篇使用技巧文章都很赞 ">
+                        <i class="fab fa-windows " ></i> Windows10高效使用</a>
+                </td>
+            </tr>
+            <tr id="ysjm">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://oo1.win/android_using_manual/ " target="_blank ">
+                        <i class="fab fa-android " ></i> 高效用安卓</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://bbs.nga.cn/read.php?tid=11672805 " target="_blank ">
+                        <i class="fab fa-gamepad " ></i> 王者英雄技巧[NGA]</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://www.zhihu.com/question/48916405 " target="_blank ">
+                        <i class="fab fa-gamepad " ></i> 王者对线技巧[知乎]</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://www.zhihu.com/question/57222487 " target="_blank ">
+                        <i class="fab fa-gamepad " ></i> 王者英雄技巧[知乎]</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--影视节目-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="5 ">
+                    <i class="fas fa-youtube-play " ></i><br>影<br>视<br>节<br>目</td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://i.youku.com/u/UNTY5MDQ5Njcy " target="_blank ">暴走漫画</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://i.youku.com/u/UNTMxOTkwNjA0/ " target="_blank ">飞碟说</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.iqiyi.com/a_19rrgibgch.html " target="_blank ">好奇实验室</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://edu.youku.com/ted " target="_blank ">TED</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/24738601#!/index " target="_blank " title="良心评测
+                    很膨胀 ">李老鼠说车</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/123938419#!/ " target="_blank " titile="原《瞎看什么》毁三观式电影解说
+                    缘，妙不可言 ">阅后即瞎</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/97471052 " target="_blank " title="优质动画短片 ">动画学术趴</a>
+                </td>
+            </tr>
+            <tr id="zydh">
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/122879 " target="_blank ">敖厂长游戏测评</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/3766866 " target="_blank " title="3C产品评测 ">科技美学</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://i.youku.com/shajia " target="_blank " title="3C产品测评 ">爱否科技FView</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="https://space.bilibili.com/11336264? " target="_blank " title="我们不是评测，是体验！愉快的体验！ ">TESTV值不值得买</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--专业导航-->
+    <div class="table-responsive navbox ">
+        <table class="table table-borderd ">
+            <tr>
+                <td class="ID " rowspan="5 ">
+                    <i class="fas fa-anchor " ></i><br>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="#" title="有一天我走了，请记得我 ">专<br>业<br>导<br>航</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://gate.guokr.com " target="_blank " title="科学、知识、娱乐 ">果壳任意门</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://hao.uisdc.com " target="_blank ">设计师导航</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://ilxdh.com " target="_blank " title="偶像的导航 榜样 ">龙轩导航</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://dh.workersky.cn" target="_blank " title="综合性导航 ">八小时导航</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.gitnavi.com " target="_blank " title="这个导航真是让人耳目一新啊 榜样 ">GitNavi</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://hao.199it.com " target="_blank " title="提供各种数据 ">大数据导航</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://www.dajiadaohang.com/index.php? " target="_blank " title="打假？必须支持！ ">打假导航</a>
+                </td>
+                <td>
+                    <a rel="nofollow noopener" data-toggle="tooltip" href="http://mwlmt.cc/d/ " target="_blank " title="格局、体系、UI完美 榜样 ">五花八门导航</a>
+                </td>
+            </tr>
+
+            <tbody>
+            <tr>
+                <td class="ID " rowspan="5 ">
+                    <i class="fas fa-check-square-o " ></i> 备用预留</td>
+                <td colspan="4 ">预告：迫于学业压力，我不能及时更新，特别是没有时间去搜集一些娱乐服务的网站。只能把这个站点当做我私人的书签使用。所以等9月份左右服务器就不再续费了，届时导航站会被转移到我博客的一个子页面中，谢谢支持了。
+                </td> 
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- 模态框 -->
+    <!-- 国家邮政局 -->
+   <div class="modal" id="gjyzjss" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#000;">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span>&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModallabel">国邮政局申诉</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <a class="hei" rel="nofollow noopener" data-toggle="tooltip" href="http://sswz.spb.gov.cn/"  title="">申诉网址</a><br>
+                                        国家邮政局申诉网站是政府的网站，所有的快递公司都要受到它的监管，可以有效的帮助消费者处理快递时遇到的服务、质量等问题，并广受好评。不过在国家邮政局申诉网站投诉，有一个前提是：<b>已向企业投诉，但是7天内没有结果或者对处理结果不满意。</b>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--标签页切换-->
+    <script>
+        $("#myTab li:eq(2) a").tab("show");
+    </script>
+    <!--滚动监听-->
+    <script>
+        $("#motai").on("activate.bs.scrollspy",function (e) {
+            alert("Hello");
+        })
+    </script>
+    <!--tooltip提示-->
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+        // $("mytooltip").tooltip("show")
+    </script>
+    <!--fontawesome图标-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?023c9de74c7ded5aab2b75280d809cfe";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!--天气-->
+    <script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","//widget.seniverse.com/widget/chameleon.js"))</script>
+    <script>tpwidget("init", {
+        "flavor": "bubble",
+        "location": "WX4FBXXFKE4F",
+        "geolocation": "enabled",
+        "position": "top-right",
+        "margin": "10px 10px",
+        "language": "auto",
+        "unit": "c",
+        "theme": "chameleon",
+        "uid": "UB5CB42439",
+        "hash": "99c532aa66846264b056c8c4dc62029b"
+    });
+    tpwidget("show");</script>
+<script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+        var $i = $("<span/>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "white"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
+    <!--闲聊么插件 没啥用了->
+    <!-- <script>
+        var xlm_wid='11783';
+        var xlm_url='https://www.xianliao.me/';
+    </script>
+    <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script> -->
+
+    <!--批量 _blank-->
+    <!--<script>-->
+    <!--var elements = document.getElementByTagName('a');-->
+    <!--for(var i = 0; i < elements.length; i++){-->
+    <!--elements[i].target = '_blank';-->
+    <!--}-->
+    <!--</script>-->
+</body>
+</html>

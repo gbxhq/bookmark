@@ -45,31 +45,33 @@
          left: 0%;  
          width: 100%;  
          height: 100%;  
-         background-color: #ffffff;  
+         background-color: #000;  
          z-index:1001;  
          -moz-opacity: 0.8;  
          opacity:.80;  
          filter: alpha(opacity=80);  
     } 
     .white_content {
-        display: none;  
+        display:none;  
         position: fixed; 
          
-        left: 10%;             
-        background-color: white; 
+        left: 40%;             
+        background-color: transparent;
+        color: #ffffff;
         z-index:1002;  
         overflow: auto;
     }
+    .white_content img{
+        border-radius:30px
+    } 
 </style>
 
 
 
 <div id="guanggao" class="white_content">
     <img width="222" src="https://0pic.oss-cn-beijing.aliyuncs.com/bot">
-    <p>加上面的微信会自动拉你进群。</p>
-    <p>机器人有时候不稳定不能拉群。</p>
-    <p>试着对机器人发送"羊毛"。</p>
-    <p>进羊毛群之前务必点上方链接看群规！</p>
+    <p>加上面的微信会自动发你群规。</p>
+    <p>群规中有进群暗号！</p>
 </div>
 
 <div id="zanshang" class="white_content">
@@ -112,18 +114,18 @@
 
 <script  type="text/javascript">
     function openWindow(obj){
-        var qq_or_weixin = "zanshang";
+        var window_name = "zanshang";
         switch(obj.id)
         {
             case 'tanchuang1':
-            qq_or_weixin = "guanggao";
+            window_name = "guanggao";
             break;
             
             case 'tanchuang2':
-            qq_or_weixin = "zanshang";
+            window_name = "zanshang";
             break;
         }
-        document.getElementById(qq_or_weixin).style.display='table-caption';
+        document.getElementById(window_name).style.display='table-caption';
         document.getElementById('fade').style.display='block';
     }
     function closeWindow(){
@@ -3833,11 +3835,6 @@
     })();
 </script>
 
-<script>
-    
-    var xlm_wid = '11783';
-    var xlm_url = 'https://www.xianliao.me/';
-</script>
-<script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
+
 
 </html>
