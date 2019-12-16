@@ -1,8 +1,3 @@
----
-
-permalink: /404.html
-
----
 <html>
 
 <head>
@@ -12,7 +7,22 @@ permalink: /404.html
 </head>
 <body color="white">
 
-<dl color="white"><embed type="application/x-shockwave-flash" width="600" height="400" src="/weimao.swf"  quality="high" scale="noborder" flashvars="width=600&amp;height=400" allowscriptaccess="sameDomain" align="L"></embed></dl>
+    <DIV align="center">
+        <script src="https://x-jq.cn/js/phaser.min.js"></script>
+        <script src="https://x-jq.cn/js/catch-the-cat.js"></script>
+        <div id="catch-the-cat"></div>
+        <script>
+            window.game = new CatchTheCatGame({
+                w: 11,
+                h: 11,
+                r: 20,
+                backgroundColor: 16777215,
+                parent: "catch-the-cat",
+                statusBarAlign: "center",
+                credit: "https://oo1.win 炫猿"
+            })
+        </script>
+    </DIV>
 
 <a href="https://oo1.win">返回好玩的炫猿首页</a>
 
